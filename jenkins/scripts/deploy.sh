@@ -1,1 +1,1 @@
-java -jar ./target/*.jar
+env SERVER.PORT=8089 nohup java -jar ./target/*.jar &
