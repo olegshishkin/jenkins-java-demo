@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String index() {
-		return "Spring Boot app started!!!";
+		return "Spring Boot app started!";
 	}
 }
